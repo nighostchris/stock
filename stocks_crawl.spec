@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['clean', 'stocks_crawl.py'],
+a = Analysis(['stocks_crawl.py'],
              pathex=['C:\\Users\\climbz21268\\PycharmProjects\\stockCrawl'],
              binaries=[],
              datas=[],
@@ -21,7 +21,7 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name='clean',
+          name='stocks_crawl',
           debug=False,
           strip=False,
           upx=True,
